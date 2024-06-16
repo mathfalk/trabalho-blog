@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(90deg, rgb(1, 0, 22) 0%, rgb(12, 12, 40) 100%);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header {
+    text-align: center;           
+}
+header ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-right: 20px;
+}
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+header img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+main {
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 20px;
+    text-align: center;
+}
+section {
+    background-color: rgb(1, 0, 8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#intro p {
+    font-size: small;
+}
+
+@media(min-width:768px) {
+    .article_view {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;               
+    }
+    .artlink.on:hover {
+        scale: 1.1;
+    }
+}
+.artlink {
+    text-decoration: none;
+    cursor: auto;
+}
+.artlink.on:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+article {
+    padding: 5px 5px 5px 5px;
+    margin: 5%;
+    margin-top: 0;
+    color: rgb(56, 56, 59);
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+}
+article p {
+    margin-left: 10px;
+    text-align: left;
+}
+article img {
+    border-radius: 5px;
+    width: 200px;
+}
+#article_head img {
+    border-radius: 5px;
+    width: 25%;
+    min-width: 200px;
+    height: auto;
+}
+#about {
+    color: rgb(231, 231, 231);
+}
+#about p {
+    font-size: small;
+}
+footer {
+    font-size: small;
+    background-color: rgb(114, 114, 114);
+    margin: 20px;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
+#article span {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+}
+#article span h4 {
+    height: 8px;
+}
+#article span p {
+    text-align: center;
+}
